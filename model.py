@@ -18,4 +18,4 @@ if __name__=='__main__':
     predictions = model.predict(X_test)
 
     print(model.score(X_test, y_test))
-    joblib.dump(model, "xgb_model.pkl")
+    joblib.dump(model, "xgb_model.sav")
